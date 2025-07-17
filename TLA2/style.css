@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    justify-content: center;
+}
+
+.emoji {
+    text-shadow: 2px 2px 15px rgba(192, 108, 35, 0.693);
+}
+
+#nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A76D60;
+    color: #f6e9dc;
+    padding: .5rem;
+    box-shadow: 5px 0px 5px 11px rgb(59, 32, 17);
+    position: fixed;
+}
+
+#h1-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: .4rem 2rem;
+}
+
+#outline {
+    font-size: 1rem;
+}
+
+#profile-logo {
+    width: 55px;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+
+#links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 35%;
+    font-size: 1.7rem;
+}
+
+a {
+    color: rgb(20, 0, 0)    ;
+    text-decoration: none;
+}
+
+#logo-container {
+    font-size: .8rem;
+    width: 35%;
+    display: flex;
+    justify-content: c;
+    align-items: center;
+    gap: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#logo-container h1 {
+    color: rgb(255, 246, 246);
+}
+
+#uic-logo {
+    position: fixed; 
+    width: 5rem;
+    top: 90%;
+    left: 1%;
+}
+
+.parent-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.info-container {
+    margin-top: 180px;
+    width: 100%;
+    min-height: 40rem;
+    background-color: #F1DAC4;
+    position: relative;
+    z-index: -5;
+}
+
+#info-image {
+    width: 600px;
+    position: absolute;
+    bottom: 0.01rem;
+    margin-left: 65%;
+}
+
+
+#text-info-container {
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    font-size: 2rem;
+    gap: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#text-info-container p {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 15px rgb(124, 123, 119);
+}
+
+.skills-container {
+    width: 100%;
+    min-height: 40rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+    overflow: hidden;
+}
+
+.skill-box {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 1rem;
+    background-color: #7f52498a;
+    width: 20% ;
+    height: 400px;
+    box-shadow: 1px 1px 15px rgb(42, 23, 23);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+    gap: 25px  ;
+    overflow: hidden;
+}
+
+.skill-box li {
+    text-align: left;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    color: #000000;
+}
+
+.projects-container {
+    width: 100%;
+    min-height: 40rem;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
+    text-align: center;
+}
+
+.project-box {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 3rem;
+}
+
+.project-box img {
+    width: 40%;
+    height: 550px;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.588);
+}
+
+.project-box .project-text-box {
+    font-size: 2rem;
+    
+}
+
+
+#h1-projects {
+    font-size: 6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.project-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-shadow: 2px 2px 15px rgb(124, 123, 119);
+    border: 2px solid rgb(255, 251, 197);
+    padding: 2rem;
+}
+
+#copyright {
+    padding: 5px;
+}
+
+@media (max-width: 961px) {
+    body {
+        background-color: rgb(0, 0, 0);
+    }
+}
